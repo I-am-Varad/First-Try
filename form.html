@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            My first form
+        </title>
+        <style>
+            body{
+                background-image: linear-gradient(lightgray,pink)
+            }
+            marquee{
+                color: darkorchid;
+                font-size: 50px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            label{
+                color: orange;
+            }
+            img{
+                width: 250px;
+                margin-left: 125px;
+                border-style: double;
+                border-color: darkred;
+                border-width: 25px;
+                border-radius: 25px;
+                padding: 20px;
+                margin-top: -20%;
+
+            }
+        </style>
+    </head>
+    <body>
+        <marquee direction="right">It's my life</marquee>
+        <form action="mailto:k.varad21@gmail.com" method="post">
+            Name: <br>
+        <input type="text" name="Name" placeholder="Enter Your Name" required> <br> <br>
+        Gender : <br>
+        <input type="radio" name="Gender" value="male" id="Gender-m">
+        <label for="Gender-m">Male</label>
+        <input type="radio" name="Gender" value="female" id="Gender-f">
+        <label for="Gender-f">Female</label>
+        <br><br>
+        Languages Known :
+        <input type="checkbox" name="language" id="language1" value="English">
+        <label for="language1">English</label>
+        <input type="checkbox" name="language" id="language2" value="Hindi">
+        <label for="language2">Hindi</label>
+        <input type="checkbox" name="language" id="language3" value="Marathi">
+        <label for="language3">Marathi</label>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
+        <br><br>
+        Favourite Game : 
+        <select name="Favourite Game">
+            <option>--Choose a game--</option>
+            <option>Cricket</option>
+            <option>Football</option>
+            <option>Tennis</option>
+            <option>Golf</option>
+        </select>
+
+        <img src="https://media.gq.com/photos/58b9fda8803bdb766dd69ef7/16:9/w_1280,c_limit/wolverine.jpg" alt="the wolverine">
+    </body>
+</html>
