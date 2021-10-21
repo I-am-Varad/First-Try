@@ -1,0 +1,16 @@
+.parent > div {
+    background-color: pink;
+    width: 100px;
+    font-size: 35px;
+    margin: 45px;
+    line-height: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
